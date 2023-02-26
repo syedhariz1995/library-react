@@ -11,10 +11,10 @@ const Nav = () => {
             </a>
             <ul className="nav__links">
                 <li className="nav__list">
-                    <a href="" className="nav__link">Home</a>
+                    <a href="/" className="nav__link">Home</a>
                 </li>
                 <li className="nav__list">
-                    <a href="" className="nav__link">Books</a>
+                    <a href="/books" className="nav__link">Books</a>
                 </li>
                 <button className="btn__menu">
                     <FontAwesomeIcon icon="bars"/>
@@ -23,7 +23,7 @@ const Nav = () => {
                     <a href="/cart" className="nav__link">
                         <FontAwesomeIcon icon="shopping-cart"/>
                     </a>
-                    <span className="cart__length">2</span>
+                    <span className="cart__length">1</span>
                 </li>
             </ul>
             <div className="menu__backdrop">
