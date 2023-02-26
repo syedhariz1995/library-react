@@ -1,4 +1,5 @@
 
+import Discounted from "./component/Discounted";
 import Featured from "./component/Featured";
 import Highlights from "./component/Highlights";
 import Landing from "./component/Landing";
@@ -11,6 +12,7 @@ function App() {
       <Landing/>
       <Highlights/>
       <Featured/>
+      <Discounted/>
     </div>
   );
 }
